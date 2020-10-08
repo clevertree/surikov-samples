@@ -1,0 +1,15 @@
+{
+  "name": "surikov-files",
+  "version": "0.1.1",
+  "type": "module",
+  "scripts": {
+    "start": "node -r esm ./gen.js"
+  },
+  "dependencies": {
+    "atob": "^2.1.2",
+    "crypto-js": "^4.0.0",
+    "jsdom": "^16.4.0",
+    "shared-utils": "^2.0.1",
+    "wav": "^1.0.2"
+  }
+}
